@@ -1,0 +1,7 @@
+to start server:
+ssh into machine
+tightvncserver -geometry 1024x768
+netstat -tulpn //to check if it's running
+ssh -L 5901:localhost:5901 -N -f kali@44.203.88.236 -i MyKali.pem //creates a secure tunnel between the vnc server and the cloud machine we are accessing
+open vncviewer in windows, put localhost:5901 and password as "password"
+vncserver -kill :[PROCESS ID] //to kill server process
