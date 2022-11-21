@@ -9,3 +9,6 @@ It is not so common that papers investigate how penetration testing is affected 
 Gaining a reverse shell using Netcat on the vulnerable cloud machine is achievable by exploiting vulnerabilities discussed in literature. One of the vulnerabilities includes file uploading which allows one to upload a malicious file to the web server. Many security restrictions prevent you from doing so such as specifying the file type to a non-malicious extension such as JPEG or PNG.
 
 An assessment of the penetration test is provided towards the end of the final report regarding how well it performed.
+
+## Disclaimer
+This project was produced in association with the University Of Sussex as a final year dissertation.
